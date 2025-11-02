@@ -131,7 +131,7 @@ Where `λ` is the Fourier loss weight parameter.
 
 Here's the updated section with TensorBoard logging added:
 
-## 📊 Results & Evaluation
+## Results & Evaluation
 
 ### Training Monitoring
 - **TensorBoard Logging**: Real-time visualization of training metrics, loss curves, and generated samples
@@ -166,7 +166,7 @@ tensorboard --logdir=runs/
 - ✅ **Faster convergence** in some datasets
 - ✅ **Comprehensive monitoring** through TensorBoard visualization
 
-## 🧪 Experiments
+## Experiments
 
 ### Datasets
 - **CelebA**: Face generation
