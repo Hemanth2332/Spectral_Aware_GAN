@@ -8,7 +8,7 @@
 
 A novel Deep Convolutional Generative Adversarial Network (DCGAN) implementation enhanced with **Fourier Space Loss** to improve training stability and image quality. This project explores the integration of frequency domain analysis with traditional GAN training.
 
-## 📖 Project Overview
+## Project Overview
 
 Traditional GANs often struggle with training instability and mode collapse. This project addresses these challenges by incorporating **Fourier Space Loss** alongside the standard adversarial loss. The Fourier loss helps the generator learn better spatial frequency distributions, leading to more stable training and higher quality image generation.
 
@@ -18,7 +18,7 @@ Traditional GANs often struggle with training instability and mode collapse. Thi
 - **Improved Stability:** More consistent training dynamics compared to vanilla DCGAN
 - **Enhanced Image Quality:** Better texture and structural details in generated images
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install torch torchvision torchaudio matplotlib numpy pillow opencv-python tqdm tensorboard
 ```
 
-## 🚀 Usage
+## Usage
 
 ### Training the Model
 
@@ -156,8 +156,8 @@ tensorboard --logdir=runs/
 - Model graph architecture
 - Gradient distributions and histograms
 
-![result1](output/output6.png)
-![result2](output/output7.png)
+![result1](output/output6.jpg)
+![result2](output/output7.jpg)
 
 ### Expected Improvements
 - ✅ **More stable training** with reduced mode collapse
