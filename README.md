@@ -157,7 +157,7 @@ tensorboard --logdir=runs/
 - Gradient distributions and histograms
 
 ![result1](output/output6.jpg)
-![result2](output/output7.jpg)
+![result2](https://github.com/Hemanth2332/DCGAN_fourier_loss/blob/main/output/output7.jpg)
 
 ### Expected Improvements
 - ✅ **More stable training** with reduced mode collapse
